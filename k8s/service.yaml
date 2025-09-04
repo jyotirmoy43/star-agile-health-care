@@ -9,6 +9,6 @@ spec:
     app: health-care-app
   ports:
     - port: 80          # Service port inside the cluster
-      targetPort: 8092  # Pod port your app listens on
+      targetPort: 8082  # Pod port your app listens on
       nodePort: 31552   # External port on the node
       protocol: TCP
