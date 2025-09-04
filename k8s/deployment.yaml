@@ -16,4 +16,4 @@ spec:
         - name: health-care-container
           image: IMAGE_PLACEHOLDER
           ports:
-            - containerPort: 8092
+            - containerPort: 8082
